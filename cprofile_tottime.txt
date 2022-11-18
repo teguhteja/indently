@@ -1,0 +1,15 @@
+Timing program
+         13 function calls in 5.492 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    4.002    2.001    4.002    2.001 {built-in method time.sleep}
+        3    1.490    0.497    1.490    0.497 cprofile_slow.py:8(process_data)
+        1    0.000    0.000    5.492    5.492 cprofile_slow.py:24(main)
+        1    0.000    0.000    5.492    5.492 {built-in method builtins.exec}
+        2    0.000    0.000    1.001    0.500 cprofile_slow.py:12(sort_data)
+        1    0.000    0.000    5.492    5.492 <string>:1(<module>)
+        1    0.000    0.000    2.971    2.971 cprofile_slow.py:18(reload_page)
+        1    0.000    0.000    2.002    2.002 cprofile_slow.py:4(api_call)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
